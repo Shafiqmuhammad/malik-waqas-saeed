@@ -113,7 +113,7 @@ export default function Footer({ darkMode, setActiveSection }: FooterProps) {
           className="border-t border-gray-800 pt-8 text-center text-gray-500"
         >
           <p>
-            © 2025 Malik Waqas Saeed. Built with ❤️ using React & TailwindCSS
+            © 2025 Malik Waqas Saeed. Built by ❤️Munna Hero
           </p>
         </motion.div>
       </div>

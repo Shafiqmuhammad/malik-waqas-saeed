@@ -13,8 +13,8 @@ export default function Hero({ darkMode, setActiveSection }: HeroProps) {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1983037/pexels-photo-1983037.jpeg?auto=compress&cs=tinysrgb&w=1920)',
-          // backgroundImage: '/public/entrepreneur.jpeg',
+          // backgroundImage: 'url(https://images.pexels.com/photos/1983037/pexels-photo-1983037.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+          backgroundImage: 'url(/entrepreneur.jpeg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.3)',
@@ -53,7 +53,9 @@ export default function Hero({ darkMode, setActiveSection }: HeroProps) {
                 className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-[#75FFD8]/40 shadow-2xl bg-white/5 backdrop-blur-sm"
               >
                 <Image
-                  src="/public/malik-waqas.png"
+                  width={224}
+                  height={224}
+                  src="/malik-waqas.png"
                   alt="Malik Waqas Saeed"
                   className="w-full h-full object-cover"
                 />
@@ -70,7 +72,7 @@ export default function Hero({ darkMode, setActiveSection }: HeroProps) {
               className="text-5xl md:text-7xl font-bold text-white mb-6"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
-              Hi, I'm <span className="text-[#75FFD8]">Malik Waqas Saeed</span> 👋
+              Hi, I am <span className="text-[#75FFD8]">Malik Waqas Saeed</span> 👋
             </h1>
           </motion.div>
 

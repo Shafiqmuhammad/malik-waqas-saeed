@@ -219,6 +219,8 @@ export default function About({ darkMode }: AboutProps) {
             <div className="aspect-square rounded-2xl overflow-hidden mb-6">
               <div className="aspect-square rounded-2xl overflow-hidden mb-6">
                 <Image
+                  width={224}
+                  height={224}
                   src="/malik-waqas.png"
                   alt="Profile"
                   className="w-full h-full object-cover"
